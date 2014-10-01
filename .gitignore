@@ -2,6 +2,10 @@
 Thumbs.db
 ehthumbs.db
 
+# Artifact directories
+bin/
+.idea/
+
 # Folder config file
 Desktop.ini
 
