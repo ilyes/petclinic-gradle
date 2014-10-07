@@ -5,6 +5,7 @@ ehthumbs.db
 # Artifact directories
 bin/
 .idea/
+build/
 
 # Folder config file
 Desktop.ini
