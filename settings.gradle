@@ -1,12 +1,15 @@
-rootProject.name = 'petstore-gradle'
+rootProject.name = 'petclinic-gradle'
 
-include 'petstore-domain'
-include 'petstore-repo'
-include 'petstore-web'
+include 'petclinic-domain'
+include 'petclinic-repo'
+include 'petclinic-web'
+include 'petclinic-domain-repo'
+include 'petclinic-domain-service'
 
 rootProject.children.each { project ->
     project.buildFileName = "${project.name}.gradle"
 }
+
 
 
 
